@@ -1,0 +1,52 @@
+{
+  "shops": [
+    {
+      "id": 4,
+      "name": "'o zozzone",
+      "description": "er mejo che poi trovà naaa capitale",
+      "position": {
+        "address": "via Amazzoni, 12",
+        "lat": 23.3232,
+        "lng": 42.2311
+      },
+      "menu": [
+        {
+          "id": 22,
+          "name": "panino caaa merda",
+          "shortDesc": "madonna se è buono",
+          "desc": "fidete, è bono davero",
+          "image": "https://www.manjoo.it/wp-content/uploads/large_dsk/1478106514_201_img.jpg",
+          "price": 5.50
+        },
+        {
+          "id": 31,
+          "name": "spaghetti alla puttanesca",
+          "shortDesc": "un esplosione di sapore che mammamia",
+          "desc": "se non lo pigli sei un molisano",
+          "image": "https://assets.marthastewart.com/styles/wmax-300/d27/A100402_PastaPuttanescaAlt_/A100402_PastaPuttanescaAlt__vert.jpg?itok=Xn4oCfnd",
+          "price": 11.50
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "l'angolo di gigi",
+      "description": "dove tutto è possibile",
+      "position": {
+        "address": "via Brontolo, 12",
+        "lat": 13.3232,
+        "lng": 22.2311
+      },
+      "menu": [
+        {
+          "id": 27,
+          "name": "banana",
+          "shortDesc": "uhhh",
+          "desc": "ancora che ce pensi???",
+          "image": "https://i5.walmartimages.ca/images/Large/580/6_r/875806_R.jpg",
+          "price": 0.80
+        }
+      ]
+    }
+  ]
+}

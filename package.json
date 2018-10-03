@@ -5,7 +5,7 @@
   "author": "lsimone",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "node --inspect node_modules/.bin/nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
@@ -14,7 +14,9 @@
   },
   "dependencies": {
     "cross-env": "^5.2.0",
+    "lodash": "^4.17.11",
     "nuxt": "^2.0.0",
+    "sass-loader": "^7.1.0",
     "vuetify": "^1.2.4"
   },
   "devDependencies": {

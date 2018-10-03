@@ -68,6 +68,13 @@
       fixed
     >
       <v-list>
+        <v-list-tile @click.native="reset">
+          <v-list-tile-action>
+            <v-icon light>compare_arrows</v-icon>
+          </v-list-tile-action>
+          <v-list-tile-title>RESET DB TO ORIGINAL</v-list-tile-title>
+        </v-list-tile>
+
         <v-list-tile @click.native="right = !right">
           <v-list-tile-action>
             <v-icon light>compare_arrows</v-icon>
@@ -86,6 +93,9 @@
 </template>
 
 <script>
+
+  import {resetMocks} from '~/services/api'
+
   export default {
     data() {
       return {
@@ -99,7 +109,12 @@
         miniVariant: false,
         right: true,
         rightDrawer: false,
-        title: 'Vuetify.js'
+        title: 'Te Pesa Er Culo'
+      }
+    },
+    methods: {
+      reset() {
+        resetMocks()
       }
     }
   }
